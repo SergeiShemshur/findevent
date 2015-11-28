@@ -14,4 +14,5 @@ public interface UserService {
     Iterable<User> getAllUsers();
 
     User create(UserDto form);
+    Optional<User> getUserByName(String name);
 }

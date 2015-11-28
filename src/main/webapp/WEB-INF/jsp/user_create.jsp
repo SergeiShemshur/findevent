@@ -18,6 +18,7 @@ ${status.error ? 'has-error' : ''}
 
 <form:form method="post" modelAttribute="form" action="${userActionUrl}">
     <form:errors cssClass="alert-success"/>
+    <form:input path="name" type="text" />
     <form:input path="email" type="text"/>
     <form:input path="password" type="text" />
     <form:input path="passwordRepeated" type="text" />

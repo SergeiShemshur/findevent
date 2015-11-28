@@ -34,7 +34,7 @@ public class UserCreateFormValidator implements Validator {
         UserDto form = (UserDto) target;
         validatePasswords(errors, form);
         validateEmail(errors, form);
-
+        validateName(errors,form);
     }
 
     private void validatePasswords(Errors errors, UserDto form) {
@@ -47,6 +47,10 @@ public class UserCreateFormValidator implements Validator {
         if (userService.getUserByEmail(form.getEmail()).isPresent()) {
             errors.reject("email.exists", "User with this email already exists");
         }
-
+    }
+    private void validateName(Errors errors, UserDto form) {
+        if (userService.getUserByName(form.getName()).isPresent()) {
+            errors.reject("name.exists", "User with this name already exists");
+        }
     }
 }

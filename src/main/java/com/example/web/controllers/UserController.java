@@ -5,16 +5,16 @@ import com.example.utility.UserCreateFormValidator;
 import com.example.utility.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.InitBinder;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
+import java.util.NoSuchElementException;
 
 @Controller
 public class UserController {
@@ -28,16 +28,28 @@ public class UserController {
         this.userCreateFormValidator = userCreateFormValidator;
     }
 
-
     @InitBinder("form")
     public void initBinder(WebDataBinder binder) {
         binder.addValidators(userCreateFormValidator);
     }
 
-
+    // @PreAuthorize("hasAuthority('ADMIN')")
     @RequestMapping(value = "user/create", method = RequestMethod.GET)
     public ModelAndView getUserCreatePage() {
         return new ModelAndView("user_create", "form", new UserDto());
+    }
+
+
+    @RequestMapping(value = "/user/{name}" ,method = RequestMethod.GET)
+    public ModelAndView getUser(@PathVariable String name,Authentication authentication){
+        UserDetails currentUser = (UserDetails) authentication.getPrincipal();
+        String userName = userService.getUserByEmail(currentUser.getUsername()).get().getName();
+
+        if(userName.equals(name)){
+            return new ModelAndView("user_owner", "user", userService.getUserByName(name)
+                    .orElseThrow(() -> new NoSuchElementException(String.format("User=%s not found", name))));
+        }else return new ModelAndView("user_guest", "user", userService.getUserByName(name)
+                .orElseThrow(() -> new NoSuchElementException(String.format("User=%s not found", name))));
     }
 
 
@@ -56,7 +68,7 @@ public class UserController {
     }
 
 
-    @RequestMapping(value = "users", method = RequestMethod.GET)
+    @RequestMapping(value = "/users", method = RequestMethod.GET)
     public ModelAndView getUsers() {
         return new ModelAndView("users_page", "users", userService.getAllUsers());
     }

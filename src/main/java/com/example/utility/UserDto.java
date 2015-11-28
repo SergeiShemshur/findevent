@@ -5,10 +5,13 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.validation.constraints.NotNull;
 
-/**
- * Created by sergei on 11/25/15.
- */
+
 public class UserDto {
+
+
+    @NotEmpty
+    private String name = "";
+
     @NotEmpty
     private String email = "";
 
@@ -21,6 +24,13 @@ public class UserDto {
     @NotNull
     private Role role = Role.USER;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public String getEmail() {
         return email;

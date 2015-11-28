@@ -5,8 +5,6 @@ import com.example.utility.Role;
 import javax.persistence.*;
 
 /**
-
- *
  * @author sergei
  */
 @Entity
@@ -16,6 +14,10 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false, updatable = false)
     private Long id;
+
+
+    @Column(name = "name", nullable = false, unique = true)
+    private String name;
 
     @Column(name = "email", nullable = false, unique = true)
     private String email;
@@ -27,6 +29,14 @@ public class User {
     @Enumerated(EnumType.STRING)
     private Role role;
 
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public Long getId() {
         return id;

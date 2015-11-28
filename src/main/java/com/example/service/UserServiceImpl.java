@@ -34,6 +34,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public Optional<User> getUserByName(String name) {
+        LOG.debug("Getting user=",name);
+        return userRepository.findByName(name);
+    }
+    @Override
     public Set<User> getAllUsers() {
         LOG.debug("Getting all users ");
         return userRepository.findAll();
@@ -43,6 +48,7 @@ public class UserServiceImpl implements UserService {
     public User create(UserDto form) {
         User user = new User();
         user.setEmail(form.getEmail());
+        user.setName(form.getName());
         user.setPasswordHash(new BCryptPasswordEncoder().encode(form.getPassword()));
         user.setRole(form.getRole());
         return userRepository.save(user);
