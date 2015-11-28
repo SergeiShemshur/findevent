@@ -3,6 +3,11 @@ package com.example.repository;
 
 import com.example.model.User;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Collection;
+import java.util.Optional;
+import java.util.Set;
 
 /**
  * A DAO for the entity User is simply created by extending the CrudRepository
@@ -13,14 +18,20 @@ import org.springframework.data.repository.CrudRepository;
  *
  * @author netgloo
  */
-
+@Repository
 public interface UserDao extends CrudRepository<User, Long> {
 
     /**
      * Return the user having the passed email or null if no user is found.
      *
-     * @param email the user email.
+     *
      */
-    public User findByEmail(String email);
 
-} // class UserDao
+
+    Set<User> findAll ();
+
+    Optional<User> findUserById(long id);
+    Optional<User> findByEmail(String email);
+
+}
+
