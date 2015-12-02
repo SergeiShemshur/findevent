@@ -4,16 +4,27 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<script src="/resources/js/jquery-2.1.4.min.js"></script>
+
+<link rel="stylesheet" href="/resources/bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
+<div class="jumbotron">hello</div>
 
-    <p >Main page</p>
+<div><a href="/user/create">registration</a></div>
 
 
+<a href="/login">authorization</a>
+
+
+
+
+
+
+
+    <script src="/resources/js/jquery-2.1.4.min.js"></script>
+    <script src="/resources/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

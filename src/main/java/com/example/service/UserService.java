@@ -12,7 +12,6 @@ public interface UserService {
     Optional<User> getUserByEmail(String email);
 
     Iterable<User> getAllUsers();
-
     User create(UserDto form);
     Optional<User> getUserByName(String name);
 }

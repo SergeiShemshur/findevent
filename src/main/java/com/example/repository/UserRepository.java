@@ -19,7 +19,7 @@ import java.util.Set;
  * @author netgloo
  */
 @Repository
-public interface UserDao extends CrudRepository<User, Long> {
+public interface UserRepository extends CrudRepository<User, Long> {
 
     /**
      * Return the user having the passed email or null if no user is found.

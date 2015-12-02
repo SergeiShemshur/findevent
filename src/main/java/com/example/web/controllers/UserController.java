@@ -47,7 +47,7 @@ public class UserController {
 
         if(userName.equals(name)){
             return new ModelAndView("user_owner", "user", userService.getUserByName(name)
-                    .orElseThrow(() -> new NoSuchElementException(String.format("User=%s not found", name))));
+                    .orElseThrow(() -> new NoSuchElementException(String.format("User = %s  not found", name))));
         }else return new ModelAndView("user_guest", "user", userService.getUserByName(name)
                 .orElseThrow(() -> new NoSuchElementException(String.format("User=%s not found", name))));
     }
@@ -66,7 +66,6 @@ public class UserController {
         }
         return "redirect:/users";
     }
-
 
     @RequestMapping(value = "/users", method = RequestMethod.GET)
     public ModelAndView getUsers() {

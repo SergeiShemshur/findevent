@@ -7,14 +7,10 @@ import javax.persistence.*;
 /**
  * @author sergei
  */
+
 @Entity
 @Table(name = "user")
-public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false, updatable = false)
-    private Long id;
-
+public class User extends BaseEntity {
 
     @Column(name = "name", nullable = false, unique = true)
     private String name;
@@ -29,6 +25,8 @@ public class User {
     @Enumerated(EnumType.STRING)
     private Role role;
 
+    @OneToOne(cascade = CascadeType.ALL)
+    UserDetails userDetails ;
 
     public String getName() {
         return name;
@@ -36,14 +34,6 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getEmail() {
@@ -68,6 +58,14 @@ public class User {
 
     public void setRole(Role role) {
         this.role = role;
+    }
+
+    public UserDetails getUserDetails() {
+        return userDetails;
+    }
+
+    public void setUserDetails(UserDetails userDetails) {
+        this.userDetails = userDetails;
     }
 
 

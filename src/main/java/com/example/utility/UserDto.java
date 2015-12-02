@@ -21,8 +21,6 @@ public class UserDto {
     @NotEmpty
     private String passwordRepeated = "";
 
-    @NotNull
-    private Role role = Role.USER;
 
     public String getName() {
         return name;
@@ -56,13 +54,7 @@ public class UserDto {
         this.passwordRepeated = passwordRepeated;
     }
 
-    public Role getRole() {
-        return role;
-    }
 
-    public void setRole(Role role) {
-        this.role = role;
-    }
 
     @Override
     public String toString() {
@@ -70,7 +62,6 @@ public class UserDto {
                 "email='" + email.replaceFirst("@.+", "@***") + '\'' +
                 ", password=***" + '\'' +
                 ", passwordRepeated=***" + '\'' +
-                ", role=" + role +
                 '}';
     }
 }

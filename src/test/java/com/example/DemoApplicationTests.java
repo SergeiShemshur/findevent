@@ -1,7 +1,7 @@
 package com.example;
 
 import com.example.model.User;
-import com.example.repository.UserDao;
+import com.example.repository.UserRepository;
 import com.example.service.UserService;
 import com.example.utility.Role;
 import org.junit.Test;
@@ -19,7 +19,7 @@ import java.util.Optional;
 public class DemoApplicationTests {
 
 	@Autowired
-	UserDao userDao;
+	UserRepository userDao;
 
 	@Autowired
 	UserService userService;
