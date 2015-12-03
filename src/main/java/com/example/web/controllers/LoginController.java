@@ -20,11 +20,4 @@ public class LoginController {
         return new ModelAndView("login","error",error);
     }
 
-    @RequestMapping(value = "/getUser",method = RequestMethod.GET)
-    public @ResponseBody
-    String get(Authentication authentication){
-        UserDetails currentUser = (UserDetails) authentication.getPrincipal();
-     return currentUser.getUsername();
-    }
-
 }

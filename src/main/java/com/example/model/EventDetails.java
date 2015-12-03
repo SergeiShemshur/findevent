@@ -1,9 +1,20 @@
 package com.example.model;
 
-public class EventDetails {
+import javax.persistence.Column;
+import javax.persistence.Entity;
 
 
-    //TODO
+@Entity
+public class EventDetails extends BaseEntity {
+
+
+    @Column
+    String name;
+
+    @Column
+    String description;
+
+
 
 
 }

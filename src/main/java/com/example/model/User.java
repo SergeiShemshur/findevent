@@ -3,6 +3,7 @@ package com.example.model;
 import com.example.utility.Role;
 
 import javax.persistence.*;
+import java.util.Set;
 
 /**
  * @author sergei
@@ -27,6 +28,8 @@ public class User extends BaseEntity {
 
     @OneToOne(cascade = CascadeType.ALL)
     UserDetails userDetails ;
+
+
 
     public String getName() {
         return name;

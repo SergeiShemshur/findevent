@@ -53,7 +53,7 @@
         </div>
     </div>
 
-
+                    <p class="text-center"><a href="user/create">Create account</a> </p>
 
 </div>
 

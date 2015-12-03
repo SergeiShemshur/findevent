@@ -64,7 +64,7 @@ public class UserController {
             bindingResult.reject("email.exists", "Email already exists");
             return "user_create";
         }
-        return "redirect:/users";
+        return "redirect:/";
     }
 
     @RequestMapping(value = "/users", method = RequestMethod.GET)
