@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Evento | Free Onepage Event Template | ShapeBootstrap</title>
+    <title>Evento</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -79,6 +79,7 @@
             <li data-target="#main-slider" data-slide-to="1"></li>
             <li data-target="#main-slider" data-slide-to="2"></li>
         </ol>
+
         <div class="carousel-inner">
             <div class="item active">
                 <img class="img-responsive" src="images/slider/bg1.jpg" alt="slider">
@@ -106,6 +107,7 @@
                     <h4>full event package only @$199</h4>
                     <a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
                 </div>
+
             </div>
         </div>
     </div>

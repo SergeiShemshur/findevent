@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9981cadf-d703-4c15-b4bb-d0dc28edd297" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/JpaHiberConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Performer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Region.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/EventRepository.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/font-awesome.min.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/EventDetailsRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/EventService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/web/controllers/EventController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/event_page.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/example/test/Mypage.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/example/model/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/model/City.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/City.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/config/JpaHiberConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/JpaHiberConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/model/Event.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Event.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/model/EventDetails.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/EventDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/model/UserDetails.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/UserDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/CityRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/CityRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/EventRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/EventRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/web/controllers/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/web/controllers/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_create.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_create.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
     </list>
     <ignored path="untitled.iws" />
@@ -28,17 +41,34 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - findstar@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="untitled" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EventRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/EventRepository.java">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2777778">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.587007">
+              <caret line="14" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,16 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/example/cont/MvcConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/controllers/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/js/bot.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/js/bot.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/test.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/service/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/model/UserDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/web/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/config/MvcConfiguration.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/DemoApplicationTests.java" />
@@ -94,35 +114,45 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_guest.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/model/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/utility/UserDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users_page.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/model/Entity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/model/BaseEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/repository/UserDetailsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/model/UserDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_create.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/model/EventDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/model/Event.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/web/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/web/controllers/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/web/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_owner.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/test/Mypage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/model/Region.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/model/City.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/model/Performer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/CityRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/model/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/config/JpaHiberConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/CityRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/web/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/repository/EventRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/EventDetailsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/model/EventDetails.java" />
+        <option value="dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.performer" />
+        <option value="dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.city_events" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/test/Mypage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/model/UserDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/event_page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/web/controllers/TestControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/service/EventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/web/controllers/EventController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_create.jsp" />
+        <option value="dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.user" />
+        <option value="dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.user_details" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/model/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" />
       </list>
     </option>
   </component>
@@ -172,10 +202,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="62" />
-    <option name="width" value="1913" />
-    <option name="height" value="896" />
+    <option name="x" value="361" />
+    <option name="width" value="1560" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -202,9 +231,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,14 +266,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,92 +339,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="star" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="star" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="star" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -440,66 +374,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="star" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="star" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -625,6 +499,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -632,14 +507,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/MyJavaProjectes/PPrecord" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="ap&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/resources/application.properties&#10;user_c&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/webapp/WEB-INF/jsp/user_create.jsp&#10;use&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/webapp/WEB-INF/jsp/user_create.jsp&#10;userDto&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/utility/UserDto.java&#10;user&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/webapp/WEB-INF/jsp/user_create.jsp&#10;userC&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/web/controllers/UserController.java&#10;userS&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/service/UserService.java&#10;Predic&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;userc&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/web/controllers/UserController.java&#10;UserC&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/web/controllers/UserController.java" />
+    <property name="SearchEverywhereHistoryKey" value="eventCo&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/web/controllers/EventController.java&#10;ap&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/resources/application.properties&#10;user_c&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/webapp/WEB-INF/jsp/user_create.jsp&#10;use&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/webapp/WEB-INF/jsp/user_create.jsp&#10;userDto&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/utility/UserDto.java&#10;user&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/webapp/WEB-INF/jsp/user_create.jsp&#10;userC&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/web/controllers/UserController.java&#10;userS&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/service/UserService.java&#10;Predic&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;userc&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/web/controllers/UserController.java&#10;UserC&#9;FILE&#9;file:///home/sergei/startaps/star/src/main/java/com/example/web/controllers/UserController.java" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="54" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -698,6 +573,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Mypage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.test.Mypage" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1129,13 +1024,15 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.DemoApplication" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Mypage" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Mypage" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DemoApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -1165,7 +1062,11 @@
       <workItem from="1449080820808" duration="4911000" />
       <workItem from="1449149465156" duration="9637000" />
       <workItem from="1449506754871" duration="2514000" />
-      <workItem from="1449575060545" duration="1250000" />
+      <workItem from="1449575060545" duration="11692000" />
+      <workItem from="1449595981231" duration="442000" />
+      <workItem from="1449680760921" duration="3217000" />
+      <workItem from="1449842080817" duration="1466000" />
+      <workItem from="1449999384322" duration="14733000" />
     </task>
     <task id="LOCAL-00001" summary="add jsp to spring boot&#10;">
       <created>1448477660846</created>
@@ -1209,7 +1110,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78442000" />
+    <option name="totallyTimeSpent" value="108742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1221,24 +1122,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="62" width="1913" height="896" extended-state="0" />
-    <editor active="false" />
+    <frame x="361" y="0" width="1560" height="1055" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Facebook Chat" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17818575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32181427" sideWeight="0.08870491" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3338701" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="481" y="100" width="1340" height="855" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32724902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7640157" sideWeight="0.9112951" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08099352" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5334773" sideWeight="0.9112951" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4127844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17928073" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20397352" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26293105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20794702" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1249,8 +1152,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="481" y="100" width="1340" height="855" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33044422" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1274,7 +1177,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1283,404 +1186,178 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_create.jsp">
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/time/LocalDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72462076">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <marker date="1448788923928" expanded="true" signature="245:3486" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="252:369" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="376:3478" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="403:3344" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="438:3337" placeholder="..." />
-            <marker date="1448788923928" expanded="false" signature="470:3326" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="549:3311" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="736:1143" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="766:1044" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="813:1010" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="842:1003" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="942:980" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="1093:1120" placeholder="..." />
-            <marker date="1448788923928" expanded="false" signature="1186:1649" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="1270:1458" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="1507:1626" placeholder="..." />
-            <marker date="1448788923928" expanded="false" signature="1691:2131" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="1779:1969" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="2018:2108" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="2174:2616" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="2268:2451" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="2500:2593" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="2659:3135" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="2769:2962" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="3011:3112" placeholder="..." />
-            <marker date="1448788923928" expanded="true" signature="3177:3292" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.33285093">
+          <caret line="244" column="28" selection-start-line="244" selection-start-column="28" selection-end-line="244" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/resources/js/angular.min.js">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvnw">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33225808">
-          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/twit.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/sponsor-bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/map-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/header-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/light.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/watch.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/twitter-bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/twitter/twitter2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/twitter/twitter1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/twitter/twitter3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/slider/bg2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/slider/bg1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/slider/bg3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/event/event2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/event/event1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/event/event3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80544746">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.972332">
-          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/utility/CurrentUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18518518">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <marker date="1449507179611" expanded="true" signature="61:127" placeholder="..." />
-            <marker date="1449507179611" expanded="true" signature="274:426" placeholder="{...}" />
-            <marker date="1449507179611" expanded="false" signature="453:464" placeholder=" { " />
-            <marker date="1449507179611" expanded="false" signature="476:482" placeholder=" }" />
-            <marker date="1449507179611" expanded="false" signature="507:518" placeholder=" { " />
-            <marker date="1449507179611" expanded="false" signature="538:544" placeholder=" }" />
-            <marker date="1449507179611" expanded="false" signature="571:582" placeholder=" { " />
-            <marker date="1449507179611" expanded="false" signature="604:610" placeholder=" }" />
-            <marker date="1449507179611" expanded="true" signature="655:768" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.0.3.RELEASE/spring-security-core-4.0.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35335195">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6433566">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.0.3.RELEASE/spring-security-core-4.0.3.RELEASE.jar!/org/springframework/security/core/Authentication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6148936">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.0.3.RELEASE/spring-security-core-4.0.3.RELEASE.jar!/org/springframework/security/authentication/AbstractAuthenticationToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84893614">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/controllers/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4046008">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.284264">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/MvcConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7969697">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.587242">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4471058">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_owner.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15453528">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/test/Mypage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37096775">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1449506817263" expanded="false" signature="34:134" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7037037">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <marker date="1449507179619" expanded="true" signature="41:252" placeholder="..." />
-            <marker date="1449507179619" expanded="true" signature="254:675" placeholder="/**...*/" />
-            <marker date="1449507179619" expanded="true" signature="762:863" placeholder="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/UserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25925925">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <marker date="1449506375531" expanded="false" signature="36:191" placeholder="..." />
-            <marker date="1449506375531" expanded="false" signature="333:344" placeholder=" { " />
-            <marker date="1449506375531" expanded="false" signature="356:362" placeholder=" }" />
-            <marker date="1449506375531" expanded="false" signature="398:409" placeholder=" { " />
-            <marker date="1449506375531" expanded="false" signature="426:432" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/EventDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28163266">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1449506740187" expanded="false" signature="35:93" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6166667">
-          <caret line="41" column="79" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/CurrentUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74444443">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1449507179627" expanded="false" signature="38:421" placeholder="..." />
-            <marker date="1449507179627" expanded="false" signature="62:421" placeholder="..." />
-            <marker date="1449507179627" expanded="false" signature="723:734" placeholder=" { " />
-            <marker date="1449507179627" expanded="false" signature="765:771" placeholder=" }" />
-            <marker date="1449507179627" expanded="true" signature="876:1194" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48333332">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <marker date="1449507179623" expanded="false" signature="38:125" placeholder="..." />
-            <marker date="1449507179623" expanded="true" signature="62:125" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7638889">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <marker date="1449507179623" expanded="false" signature="38:557" placeholder="..." />
-            <marker date="1449507179623" expanded="true" signature="100:557" placeholder="..." />
-            <marker date="1449507179623" expanded="true" signature="903:1000" placeholder="{...}" />
-            <marker date="1449507179623" expanded="true" signature="1071:1170" placeholder="{...}" />
-            <marker date="1449507179623" expanded="true" signature="1239:1335" placeholder="{...}" />
-            <marker date="1449507179623" expanded="true" signature="1385:1474" placeholder="{...}" />
-            <marker date="1449507179623" expanded="true" signature="1527:1986" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/JpaHiberConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31944445">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <marker date="1449508824271" expanded="true" signature="36:203" placeholder="..." />
-            <marker date="1449508824271" expanded="false" signature="316:327" placeholder=" { " />
-            <marker date="1449508824271" expanded="false" signature="371:377" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3611111">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <marker date="1448404661047" expanded="false" signature="29:283" placeholder="..." />
-            <marker date="1448404661047" expanded="true" signature="285:332" placeholder="@{...}" />
-            <marker date="1448404661047" expanded="false" signature="407:418" placeholder=" { " />
-            <marker date="1448404661047" expanded="false" signature="469:475" placeholder=" }" />
-          </folding>
+        <state vertical-scroll-proportion="0.12472885">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/City.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2138889">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.19956616">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/UserDetailsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04989154">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/MvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69848156">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19956616">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.0.3.RELEASE/spring-security-core-4.0.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15436241">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <marker date="1449508606423" expanded="true" signature="35:154" placeholder="..." />
+            <marker date="1446200184000" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1446200184000" expanded="false" signature="169:278" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/CityRepository.java">
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.city">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.city_events">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.city_user_detailses">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/JpaHiberConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5704961">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5339286">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1449508824267" expanded="false" signature="40:182" placeholder="..." />
+            <marker date="1449577754552" expanded="false" signature="36:203" placeholder="..." />
+            <marker date="1449577754552" expanded="true" signature="315:326" placeholder=" { " />
+            <marker date="1449577754552" expanded="true" signature="370:376" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.performer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.event_participants">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33214286">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <marker date="1428647078000" expanded="false" signature="0:215" placeholder="/.../" />
+            <marker date="1428647078000" expanded="true" signature="237:499" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="true" signature="584:618" placeholder="{...}" />
+            <marker date="1428647078000" expanded="true" signature="624:1397" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="true" signature="1448:3378" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="true" signature="3418:5709" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="false" signature="5747:5758" placeholder=" { " />
+            <marker date="1428647078000" expanded="false" signature="5779:5785" placeholder=" }" />
+            <marker date="1428647078000" expanded="true" signature="5791:9039" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="true" signature="9116:10035" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="true" signature="10064:10075" placeholder=" { " />
+            <marker date="1428647078000" expanded="true" signature="10143:10149" placeholder=" }" />
+            <marker date="1428647078000" expanded="true" signature="10155:11756" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="true" signature="11801:12878" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="true" signature="12926:17483" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="true" signature="17566:20574" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="true" signature="20655:21073" placeholder="{...}" />
+            <marker date="1428647078000" expanded="true" signature="21079:22969" placeholder="/**...*/" />
+            <marker date="1428647078000" expanded="true" signature="23027:23051" placeholder="{...}" />
+            <marker date="1428647078000" expanded="true" signature="23057:25814" placeholder="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/Performer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48041776">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.20535715">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <marker date="1449508666751" expanded="true" signature="35:95" placeholder="..." />
+            <marker date="1449508666751" expanded="false" signature="35:95" placeholder="..." />
             <marker date="1449508666751" expanded="false" signature="208:219" placeholder=" { " />
             <marker date="1449508666751" expanded="false" signature="232:238" placeholder=" }" />
             <marker date="1449508666751" expanded="false" signature="276:287" placeholder=" { " />
@@ -1691,10 +1368,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/Region.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21018277">
+        <state vertical-scroll-proportion="0.16428572">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
-            <marker date="1449507533167" expanded="true" signature="35:151" placeholder="..." />
+            <marker date="1449507533167" expanded="false" signature="35:151" placeholder="..." />
             <marker date="1449507533167" expanded="false" signature="297:308" placeholder=" { " />
             <marker date="1449507533167" expanded="false" signature="320:326" placeholder=" }" />
             <marker date="1449507533167" expanded="false" signature="364:375" placeholder=" { " />
@@ -1707,53 +1384,655 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/User.java">
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.test">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.region_city">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.region">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/CurrentUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12010444">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.7351598">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <marker date="1449506740187" expanded="false" signature="35:111" placeholder="..." />
-            <marker date="1449506740187" expanded="true" signature="113:138" placeholder="/**...*/" />
-            <marker date="1449506740187" expanded="true" signature="140:169" placeholder="@{...}" />
-            <marker date="1449506740187" expanded="true" signature="476:549" placeholder="@{...}" />
-            <marker date="1449506740187" expanded="false" signature="675:686" placeholder=" { " />
-            <marker date="1449506740187" expanded="false" signature="698:704" placeholder=" }" />
-            <marker date="1449506740187" expanded="false" signature="742:753" placeholder=" { " />
-            <marker date="1449506740187" expanded="false" signature="770:776" placeholder=" }" />
-            <marker date="1449506740187" expanded="false" signature="806:817" placeholder=" { " />
-            <marker date="1449506740187" expanded="false" signature="830:836" placeholder=" }" />
-            <marker date="1449506740187" expanded="false" signature="876:887" placeholder=" { " />
-            <marker date="1449506740187" expanded="false" signature="906:912" placeholder=" }" />
-            <marker date="1449506740187" expanded="false" signature="949:960" placeholder=" { " />
-            <marker date="1449506740187" expanded="false" signature="980:986" placeholder=" }" />
-            <marker date="1449506740187" expanded="false" signature="1040:1051" placeholder=" { " />
-            <marker date="1449506740187" expanded="false" signature="1084:1090" placeholder=" }" />
-            <marker date="1449506740187" expanded="false" signature="1117:1128" placeholder=" { " />
-            <marker date="1449506740187" expanded="false" signature="1140:1146" placeholder=" }" />
-            <marker date="1449506740187" expanded="false" signature="1182:1193" placeholder=" { " />
-            <marker date="1449506740187" expanded="false" signature="1210:1216" placeholder=" }" />
-            <marker date="1449506740187" expanded="false" signature="1257:1268" placeholder=" { " />
-            <marker date="1449506740187" expanded="false" signature="1287:1293" placeholder=" }" />
-            <marker date="1449506740187" expanded="false" signature="1350:1361" placeholder=" { " />
-            <marker date="1449506740187" expanded="false" signature="1392:1398" placeholder=" }" />
+            <marker date="1449507179627" expanded="false" signature="38:421" placeholder="..." />
+            <marker date="1449507179627" expanded="false" signature="723:734" placeholder=" { " />
+            <marker date="1449507179627" expanded="false" signature="765:771" placeholder=" }" />
+            <marker date="1449507179627" expanded="true" signature="876:1194" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/Event.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18015666">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.6499239">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
-            <marker date="1449506740187" expanded="false" signature="36:154" placeholder="..." />
+            <marker date="1450000674541" expanded="false" signature="35:111" placeholder="..." />
+            <marker date="1450000674541" expanded="true" signature="113:138" placeholder="/**...*/" />
+            <marker date="1450000674541" expanded="true" signature="140:169" placeholder="@{...}" />
+            <marker date="1450000674541" expanded="true" signature="476:549" placeholder="@{...}" />
+            <marker date="1450000674541" expanded="false" signature="677:688" placeholder=" { " />
+            <marker date="1450000674541" expanded="false" signature="700:706" placeholder=" }" />
+            <marker date="1450000674541" expanded="false" signature="744:755" placeholder=" { " />
+            <marker date="1450000674541" expanded="false" signature="772:778" placeholder=" }" />
+            <marker date="1450000674541" expanded="false" signature="808:819" placeholder=" { " />
+            <marker date="1450000674541" expanded="false" signature="832:838" placeholder=" }" />
+            <marker date="1450000674541" expanded="false" signature="878:889" placeholder=" { " />
+            <marker date="1450000674541" expanded="false" signature="908:914" placeholder=" }" />
+            <marker date="1450000674541" expanded="false" signature="951:962" placeholder=" { " />
+            <marker date="1450000674541" expanded="false" signature="982:988" placeholder=" }" />
+            <marker date="1450000674541" expanded="false" signature="1042:1053" placeholder=" { " />
+            <marker date="1450000674541" expanded="false" signature="1086:1092" placeholder=" }" />
+            <marker date="1450000674541" expanded="false" signature="1119:1130" placeholder=" { " />
+            <marker date="1450000674541" expanded="false" signature="1142:1148" placeholder=" }" />
+            <marker date="1450000674541" expanded="false" signature="1184:1195" placeholder=" { " />
+            <marker date="1450000674541" expanded="false" signature="1212:1218" placeholder=" }" />
+            <marker date="1450000674541" expanded="true" signature="1259:1270" placeholder=" { " />
+            <marker date="1450000674541" expanded="true" signature="1289:1295" placeholder=" }" />
+            <marker date="1450000674541" expanded="false" signature="1352:1363" placeholder=" { " />
+            <marker date="1450000674541" expanded="false" signature="1394:1400" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/EventDetailsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17503805">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1449579907536" expanded="false" signature="40:211" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6287129">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <marker date="1450004278725" expanded="false" signature="38:584" placeholder="..." />
+            <marker date="1450004278725" expanded="true" signature="930:1027" placeholder="{...}" />
+            <marker date="1450004278725" expanded="true" signature="1098:1197" placeholder="{...}" />
+            <marker date="1450004278725" expanded="true" signature="1266:1362" placeholder="{...}" />
+            <marker date="1450004278725" expanded="true" signature="1412:1501" placeholder="{...}" />
+            <marker date="1450004278725" expanded="true" signature="1554:2060" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.089108914">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <marker date="1450006240961" expanded="false" signature="36:135" placeholder="..." />
+            <marker date="1450006240961" expanded="false" signature="344:355" placeholder=" { " />
+            <marker date="1450006240961" expanded="false" signature="367:373" placeholder=" }" />
+            <marker date="1450006240961" expanded="false" signature="409:420" placeholder=" { " />
+            <marker date="1450006240961" expanded="false" signature="437:443" placeholder=" }" />
+            <marker date="1450006240961" expanded="false" signature="477:488" placeholder=" { " />
+            <marker date="1450006240961" expanded="false" signature="502:508" placeholder=" }" />
+            <marker date="1450006240961" expanded="false" signature="552:563" placeholder=" { " />
+            <marker date="1450006240961" expanded="false" signature="583:589" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5033003">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="66" />
+          <folding>
+            <marker date="1449578766916" expanded="false" signature="41:252" placeholder="..." />
+            <marker date="1449578766916" expanded="true" signature="254:675" placeholder="/**...*/" />
+            <marker date="1449578766916" expanded="true" signature="762:863" placeholder="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/EventRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2777778">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.037953794">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <marker date="1449579907540" expanded="false" signature="40:381" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5049505">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="78" />
+          <folding>
+            <marker date="1449578766900" expanded="false" signature="45:745" placeholder="..." />
+            <marker date="1449578766900" expanded="true" signature="1016:1127" placeholder="{...}" />
+            <marker date="1449578766900" expanded="false" signature="1201:1212" placeholder=" { " />
+            <marker date="1449578766900" expanded="false" signature="1258:1264" placeholder=" }" />
+            <marker date="1449578766900" expanded="false" signature="1426:1437" placeholder=" { " />
+            <marker date="1449578766900" expanded="false" signature="1499:1505" placeholder=" }" />
+            <marker date="1449578766900" expanded="true" signature="1668:2290" placeholder="{...}" />
+            <marker date="1449578766900" expanded="true" signature="2479:2824" placeholder="{...}" />
+            <marker date="1449578766900" expanded="false" signature="2926:2937" placeholder=" { " />
+            <marker date="1449578766900" expanded="false" signature="3011:3017" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/EventDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5610561">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <marker date="1449584265643" expanded="false" signature="35:128" placeholder="..." />
+            <marker date="1449584265643" expanded="true" signature="257:358" placeholder="{...}" />
+            <marker date="1449584265643" expanded="true" signature="386:393" placeholder="{...}" />
+            <marker date="1449584265643" expanded="false" signature="521:532" placeholder=" { " />
+            <marker date="1449584265643" expanded="false" signature="545:551" placeholder=" }" />
+            <marker date="1449584265643" expanded="false" signature="590:601" placeholder=" { " />
+            <marker date="1449584265643" expanded="false" signature="620:626" placeholder=" }" />
+            <marker date="1449584265643" expanded="false" signature="655:666" placeholder=" { " />
+            <marker date="1449584265643" expanded="false" signature="678:684" placeholder=" }" />
+            <marker date="1449584265643" expanded="false" signature="722:733" placeholder=" { " />
+            <marker date="1449584265643" expanded="false" signature="750:756" placeholder=" }" />
+            <marker date="1449584265643" expanded="false" signature="792:803" placeholder=" { " />
+            <marker date="1449584265643" expanded="false" signature="822:828" placeholder=" }" />
+            <marker date="1449584265643" expanded="false" signature="880:891" placeholder=" { " />
+            <marker date="1449584265643" expanded="false" signature="922:928" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41025642">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="82" />
+          <folding>
+            <marker date="1449506740187" expanded="false" signature="45:300" placeholder="..." />
+            <marker date="1449506740187" expanded="true" signature="433:743" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51111114">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1449506740191" expanded="false" signature="45:398" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="671:791" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/controllers/EventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6957265">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <marker date="1450010292973" expanded="false" signature="45:920" placeholder="..." />
+            <marker date="1450010292973" expanded="false" signature="1117:1128" placeholder=" { " />
+            <marker date="1450010292973" expanded="false" signature="1148:1154" placeholder=" }" />
+            <marker date="1450010292973" expanded="true" signature="1515:1710" placeholder="{...}" />
+            <marker date="1450010292973" expanded="true" signature="1898:2288" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44102564">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.event_details">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_owner.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_guest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9837587">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <marker date="1449506740191" expanded="true" signature="4:602" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="646:2193" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="653:796" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="804:2185" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="828:2050" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="850:1952" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="883:1941" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="944:1926" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="1077:1336" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="1266:1313" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="1378:1636" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="1563:1613" placeholder="..." />
+            <marker date="1449506740191" expanded="true" signature="1659:1828" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users_page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1448785876884" expanded="true" signature="104:165" placeholder="..." />
+            <marker date="1448785876884" expanded="true" signature="112:148" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/event_page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48027843">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <marker date="1450008961513" expanded="true" signature="90:917" placeholder="..." />
+            <marker date="1450008961513" expanded="true" signature="97:106" placeholder="..." />
+            <marker date="1450008961513" expanded="true" signature="113:909" placeholder="..." />
+            <marker date="1450008961513" expanded="true" signature="151:898" placeholder="..." />
+            <marker date="1450008961513" expanded="true" signature="323:566" placeholder="..." />
+            <marker date="1450008961513" expanded="true" signature="471:555" placeholder="..." />
+            <marker date="1450008961513" expanded="true" signature="572:838" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1078887">
+          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+          <folding>
+            <marker date="1450015975780" expanded="true" signature="323:6978" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="330:1248" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="606:725" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="1295:3165" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="1356:3155" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="1388:3144" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="1425:1790" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="1479:1771" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="1820:3129" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="1864:1975" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="1926:1952" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="2030:3110" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="2091:3087" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="2236:2360" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="2429:2651" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="3254:6283" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="3278:6276" placeholder="..." />
+            <marker date="1450015975780" expanded="false" signature="3347:6228" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="3427:6213" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="3638:4045" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="3668:3946" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="3715:3912" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="3744:3905" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="3844:3882" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="3995:4022" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="4088:4551" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="4172:4360" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="4409:4528" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="4593:5033" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="4681:4871" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="4920:5010" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="5076:5518" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="5170:5353" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="5402:5495" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="5561:6037" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="5671:5864" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="5913:6014" placeholder="..." />
+            <marker date="1450015975780" expanded="true" signature="6079:6194" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/CityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30872482">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1449577754556" expanded="false" signature="40:182" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/controllers/TestControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38590604">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <marker date="1450010058669" expanded="false" signature="45:321" placeholder="..." />
+            <marker date="1450010058669" expanded="true" signature="478:498" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.user_details_events">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.user_details">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/15754b7c/e2cd7d6c-1299-4b68-a9d8-df06c2571b94/findstar.event">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4082774">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <marker date="1450019586605" expanded="true" signature="36:161" placeholder="..." />
+            <marker date="1450019586605" expanded="false" signature="471:482" placeholder=" { " />
+            <marker date="1450019586605" expanded="false" signature="497:503" placeholder=" }" />
+            <marker date="1450019586605" expanded="false" signature="552:563" placeholder=" { " />
+            <marker date="1450019586605" expanded="false" signature="586:592" placeholder=" }" />
+            <marker date="1450019586605" expanded="false" signature="637:648" placeholder=" { " />
+            <marker date="1450019586605" expanded="false" signature="668:674" placeholder=" }" />
+            <marker date="1450019586605" expanded="false" signature="736:747" placeholder=" { " />
+            <marker date="1450019586605" expanded="false" signature="780:786" placeholder=" }" />
+            <marker date="1450019586605" expanded="false" signature="829:840" placeholder=" { " />
+            <marker date="1450019586605" expanded="false" signature="860:866" placeholder=" }" />
+            <marker date="1450019586605" expanded="false" signature="926:937" placeholder=" { " />
+            <marker date="1450019586605" expanded="false" signature="970:976" placeholder=" }" />
+            <marker date="1450019586605" expanded="true" signature="1009:1020" placeholder=" { " />
+            <marker date="1450019586605" expanded="true" signature="1038:1044" placeholder=" }" />
+            <marker date="1450019586605" expanded="false" signature="1092:1103" placeholder=" { " />
+            <marker date="1450019586605" expanded="false" signature="1132:1138" placeholder=" }" />
+            <marker date="1450019586605" expanded="false" signature="1170:1181" placeholder=" { " />
+            <marker date="1450019586605" expanded="false" signature="1198:1204" placeholder=" }" />
+            <marker date="1450019586605" expanded="false" signature="1250:1261" placeholder=" { " />
+            <marker date="1450019586605" expanded="false" signature="1288:1294" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48027843">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1449506375535" expanded="true" signature="168:545" placeholder="..." />
+            <marker date="1449506375535" expanded="true" signature="175:258" placeholder="..." />
+            <marker date="1449506375535" expanded="true" signature="266:536" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71693736">
+          <caret line="322" column="46" selection-start-line="322" selection-start-column="46" selection-end-line="322" selection-end-column="46" />
+          <folding>
+            <marker date="1450014006353" expanded="true" signature="110:17274" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="117:1239" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="603:720" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="1259:17266" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="1294:3204" placeholder="..." />
+            <marker date="1450014006353" expanded="false" signature="1321:3194" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="1353:3183" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="1390:1755" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="1444:1736" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="1785:3168" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="1829:2025" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="1891:2002" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="2080:3149" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="2141:3126" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="2284:2408" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="2477:2699" placeholder="..." />
+            <marker date="1450014006353" expanded="false" signature="3241:4923" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="3312:4912" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="3353:3583" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="3621:4901" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="3659:4047" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="3793:4028" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="4078:4466" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="4212:4447" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="4497:4886" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="4631:4866" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="4961:5641" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="4989:5630" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5015:5618" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5047:5066" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5126:5417" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5228:5398" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5477:5539" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5583:5603" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5679:7702" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5707:7691" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5733:7680" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5778:7531" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5865:7512" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="5983:7489" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="6027:7462" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="6073:7431" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="6128:6513" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="6191:6474" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="6568:6963" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="6631:6924" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="7018:7396" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="7081:7357" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="7564:7665" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="7738:8470" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="7764:7850" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="7882:8459" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="7925:8347" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="8508:10158" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="8581:10147" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="8608:8697" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="8723:10136" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="8774:10121" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="8844:9828" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="8890:9169" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="9208:9487" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="9526:9805" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10041:10102" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10044:10098" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10203:13461" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10280:13450" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10312:13325" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10342:13310" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10382:13291" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10516:10580" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10519:10576" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10677:10742" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10680:10738" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10792:13268" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10842:12020" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10875:11989" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10912:11055" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10924:11050" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="10986:11046" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11092:11235" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11104:11230" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11166:11226" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11272:11415" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11284:11410" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11346:11406" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11452:11595" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11464:11590" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11526:11586" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11632:11775" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11644:11770" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11706:11766" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11812:11955" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11824:11950" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="11886:11946" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12063:13241" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12096:13210" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12133:12276" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12145:12271" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12207:12267" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12313:12456" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12325:12451" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12387:12447" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12493:12636" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12505:12631" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12567:12627" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12673:12816" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12685:12811" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12747:12807" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12853:12996" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12865:12991" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="12927:12987" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13033:13176" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13045:13171" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13107:13167" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13353:13439" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13501:16192" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13520:13622" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13549:13611" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13577:13596" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13668:16181" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13700:13790" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13822:16170" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13852:16155" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13907:14670" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="13954:14255" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="14029:14228" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="14305:14647" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="14380:14620" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="14709:16136" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="14756:16113" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="15007:16086" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="15113:15311" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="15218:15276" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="15364:15568" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="15471:15533" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="15621:15863" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="15742:15828" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="15916:16054" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="16231:16567" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="16259:16557" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="16293:16546" placeholder="..." />
+            <marker date="1450014006353" expanded="true" signature="16309:16531" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/EventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.401566">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+          <folding>
+            <marker date="1450010292977" expanded="true" signature="37:643" placeholder="..." />
+            <marker date="1450010292977" expanded="true" signature="1017:1514" placeholder="{...}" />
+            <marker date="1450010292977" expanded="true" signature="1584:1595" placeholder="{...}" />
+            <marker date="1450010292977" expanded="false" signature="1637:1647" placeholder=" { " />
+            <marker date="1450010292977" expanded="false" signature="1677:1683" placeholder=" }" />
+            <marker date="1450010292977" expanded="false" signature="1724:1733" placeholder=" { " />
+            <marker date="1450010292977" expanded="false" signature="1768:1774" placeholder=" }" />
+            <marker date="1450010292977" expanded="true" signature="1839:1924" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.587007">
+          <caret line="14" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

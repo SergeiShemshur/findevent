@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class JpaHiberConfig {
 
-
     @Bean
     public HibernateJpaSessionFactoryBean sessionFactory() {
         return new HibernateJpaSessionFactoryBean();
     }
+
 }
