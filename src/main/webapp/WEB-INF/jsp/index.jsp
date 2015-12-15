@@ -1,3 +1,6 @@
+<%@ page import="org.springframework.security.core.context.SecurityContextHolder" %>
+<%@ page import="org.springframework.security.core.userdetails.UserDetails" %>
+<%@ page import="com.example.utility.CurrentUser" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 
 <!DOCTYPE html>
@@ -52,7 +55,12 @@
 
 
                         <sec:authorize access="isAuthenticated()">
-                            <li><a class="no-scroll" href="/user/${username}" >My page</a></li>
+                            <sec:authentication property="principal.username" var="username" />
+                            <li><a class="no-scroll" href="/user/<%
+                            Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+                            String username = ((CurrentUser) principal).getUser().getName();
+                            out.print(username);
+                            %>" >My page</a></li>
                             <li><a class="no-scroll" href="/logout" >Logout</a></li>
                         </sec:authorize>
                         <li class="scroll"><a href="#explore">Artist</a></li>

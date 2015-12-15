@@ -28,6 +28,7 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter{
                 .antMatchers("/users/**").hasAuthority("ADMIN")
                 .antMatchers("/user/create").permitAll()
                 .antMatchers("/images**").permitAll()
+                .antMatchers("/successful_created_page").permitAll()
                 .antMatchers("/resources/**").permitAll()
                 .anyRequest().fullyAuthenticated()
                 .and()

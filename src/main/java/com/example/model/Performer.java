@@ -7,16 +7,14 @@ import javax.persistence.OneToOne;
 public class Performer extends BaseEntity {
 
     @OneToOne
-    User owner;
+    UserDetails owner;
 
-
-    public User getOwner() {
+    public UserDetails getOwner() {
         return owner;
     }
 
-    public void setOwner(User owner) {
+    public void setOwner(UserDetails owner) {
         this.owner = owner;
     }
-
 }
 

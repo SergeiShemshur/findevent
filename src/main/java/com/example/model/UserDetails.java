@@ -12,10 +12,13 @@ public class UserDetails extends BaseEntity {
 
 
     @OneToOne(cascade = CascadeType.ALL)
-    User user;
+    private User user;
 
-    @OneToMany( cascade = CascadeType.ALL)
-    Set<Event> events;
+    @OneToMany(cascade = CascadeType.ALL)
+    private Set<Event> events;
+
+    @OneToOne
+    private Performer performer;
 
 
     public User getUser() {
@@ -26,11 +29,20 @@ public class UserDetails extends BaseEntity {
         this.user = user;
     }
 
-    public Set<Event> getEvent() {
+
+    public Set<Event> getEvents() {
         return events;
     }
 
-    public void setEvent(Set<Event> event) {
-        this.events = event;
+    public void setEvents(Set<Event> events) {
+        this.events = events;
+    }
+
+    public Performer getPerformer() {
+        return performer;
+    }
+
+    public void setPerformer(Performer performer) {
+        this.performer = performer;
     }
 }

@@ -15,11 +15,7 @@
 <div><a href="/user/create">registration</a></div>
 
 
-<a href="/login">authorization</a>
-
-
-
-
+<a href="/login" class="text-center">authorization</a>
 
 
 

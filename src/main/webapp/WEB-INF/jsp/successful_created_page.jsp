@@ -17,6 +17,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
 
+
     <!--[if lt IE 9]>
     <script src="/js/html5shiv.js"></script>
     <script src="/js/respond.min.js"></script>
@@ -36,11 +37,9 @@
         .two .register {
             border: none;
         }
-
         .two .register h3 {
             border-bottom-color: #909090;
         }
-
         .two .register .sep {
             border-color: #909090;
         }
@@ -56,39 +55,33 @@
             background-color: #F0F0F0;
             box-shadow: 0 0 20px 0 #000000;
         }
-
         .register h3 {
             margin: 0 15px 20px;
             border-bottom: 2px solid #72B372;
             padding: 5px 10px 5px 0;
             font-size: 1.1em;
         }
-
         .register div {
             margin: 0 0 15px 0;
             border: none;
         }
-
         .register label {
             display: inline-block;
             width: 25%;
             text-align: right;
             margin: 10px;
         }
-
         .register input[type=text], .register input[type=password] {
             width: 65%;
-            font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+            font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
             padding: 5px;
             font-size: 0.9em;
             border-radius: 5px;
             background: rgba(0, 0, 0, 0.07);
         }
-
         .register input[type=text]:focus, .register input[type=password]:focus {
             background: #FFFFFF;
         }
-
         .register .button {
             font-size: 1em;
             border-radius: 8px;
@@ -101,7 +94,6 @@
             background: -o-linear-gradient(#63E651, #42753E);
             background: linear-gradient(#63e651, #42753e);
         }
-
         .register .button:hover {
             background: #51DB1C;
             background: -webkit-linear-gradient(#51DB1C, #6BA061);
@@ -109,13 +101,11 @@
             background: -o-linear-gradient(#51DB1C, #6BA061);
             background: linear-gradient(#51db1c, #6ba061);
         }
-
         .register .sep {
             border: 1px solid #72B372;
             position: relative;
             margin: 35px 20px;
         }
-
         .register .or {
             position: absolute;
             width: 50px;
@@ -125,13 +115,11 @@
             margin: -10px 0 0 -25px;
             line-height: 20px;
         }
-
         .register .connect {
             width: 400px;
             margin: 0 auto;
             text-align: center;
         }
-
         .register .social-buttons {
             display: inline-block;
             min-width: 150px;
@@ -140,7 +128,6 @@
             border-radius: 10px;
             text-shadow: 1px 1px 5px #000000;
         }
-
         .register .social-buttons a {
             display: block;
             height: 100%;
@@ -148,12 +135,10 @@
             color: #FFFFFF;
             padding: 10px 15px;
         }
-
         .register .social-buttons span {
             font-size: 30px;
             margin-left: 35px;
         }
-
         .register .facebook {
             background: #415EA3;
             background: -webkit-linear-gradient(#415EA3, #2E4A88);
@@ -161,7 +146,6 @@
             background: -o-linear-gradient(#415EA3, #2E4A88);
             background: linear-gradient(#415ea3, #2e4a88);
         }
-
         .register .facebook:hover {
             background: #3B5591;
             background: -webkit-linear-gradient(#3B5591, #2A437C);
@@ -169,11 +153,9 @@
             background: -o-linear-gradient(#3B5591, #2A437C);
             background: linear-gradient(#3b5591, #2a437c);
         }
-
         .register .facebook a {
             background: url(../images/logo_fb_31x42.png) no-repeat 5% 10%;
         }
-
         .register .twitter {
             background: #41C0F3;
             background: -webkit-linear-gradient(#41C0F3, #3FBAEC);
@@ -181,7 +163,6 @@
             background: -o-linear-gradient(#41C0F3, #3FBAEC);
             background: linear-gradient(#41c0f3, #3fbaec);
         }
-
         .register .twitter:hover {
             background: #3EB1DF;
             background: -webkit-linear-gradient(#3EB1DF, #3EAAD6);
@@ -189,12 +170,7 @@
             background: -o-linear-gradient(#3EB1DF, #3EAAD6);
             background: linear-gradient(#3eb1df, #3eaad6);
         }
-
-        .register .twitter a {
-            background: url(../images/logo_twitter_38x32.png) no-repeat 6% 25%;
-        }
-
-        li a {
+        li a{
             color: white;
         }
     </style>
@@ -247,49 +223,21 @@
 <!--/#header-->
 
 
+
+
+
+
 <section style="padding: 50px"></section>
 
 
-<div class="container">
+<div class="container"  >
     <div class="row ">
         <div class="col-md-3"></div>
 
 
         <div class="col-md-3">
-            <div class="main">
-                <div class="one">
-                    <div class="register">
-                        <h3>Create your account</h3>
-                        <%--    <form id="reg-form">--%>
-                        <form:form method="post" id="reg-form" modelAttribute="form" action="${userActionUrl}">
-                            <form:errors cssClass="alert-warning text-center"/>
-                            <div>
-                                <label for="name">Name</label>
-                                <form:input path="name" id="name" cssClass="required" type="text"/>
-                            </div>
-                            <div>
-                                <label for="email">Email</label>
-                                <form:input path="email" id="email" type="text"/>
-                            </div>
-                            <div>
-                                <label for="password">Password</label>
-                                <form:input path="password" id="password" type="text"/>
-                            </div>
-                            <div>
-                                <label for="passwordRepeated">Password Again</label>
-                                <form:input path="passwordRepeated" id="passwordRepeated" type="text"/>
-                            </div>
-                            <div>
-                                <label></label>
-                                <input type="submit" value="Create Account" id="create-account" class="button"/>
-                            </div>
-                        </form:form>
-
-                    </div>
-                </div>
-
-
-            </div>
+           <p class="" style="color: green;"> Account created</p>
+            <p class="text-center"><a href="/login">Login</a> </p>
         </div>
         <div class="col-md-3"></div>
     </div>
@@ -298,18 +246,24 @@
 <%--new form--%>
 
 
+
+
+
+
 <script>
-    $(document).ready(function () {
+    $(document).ready(function(){
         var placeholder = null;
-        $('input[type=text]').focus(function () {
+        $('input[type=text]').focus(function(){
             placeholder = $(this).attr("placeholder");
-            $(this).attr("placeholder", "");
+            $(this).attr("placeholder","");
         });
-        $('input[type=text]').blur(function () {
+        $('input[type=text]').blur(function(){
             $(this).attr("placeholder", placeholder);
         });
     });
 </script>
+
+
 
 
 <script src="/resources/js/jquery-2.1.4.min.js"></script>

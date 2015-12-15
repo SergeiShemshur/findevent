@@ -43,7 +43,7 @@ public class EventService {
 
         eventDetailsRepository.save(eventDetails);
         UserDetails userDetails = userDetailsRepository.findOne(user.getId());
-        userDetails.getEvent().add(event);
+        userDetails.getEvents().add(event);
 
         event.setCreator(userDetails);
         eventRepository.save(event);
@@ -69,7 +69,11 @@ public class EventService {
 
 
     public Set<Event> getEvetnsByUser(UserDetails userDetails){
-        return userDetailsRepository.findOne(userDetails.getId()).getEvent();
+        return userDetailsRepository.findOne(userDetails.getId()).getEvents();
+    }
+
+    public Event getEventById(long id){
+        return eventRepository.findOne(id);
     }
 
 

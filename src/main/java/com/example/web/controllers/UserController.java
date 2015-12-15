@@ -1,6 +1,7 @@
 package com.example.web.controllers;
 
 import com.example.service.UserService;
+import com.example.utility.CurrentUser;
 import com.example.utility.UserCreateFormValidator;
 import com.example.utility.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,15 +41,15 @@ public class UserController {
     }
 
 
-    @RequestMapping(value = "/user/{name}" ,method = RequestMethod.GET)
-    public ModelAndView getUser(@PathVariable String name,Authentication authentication){
+    @RequestMapping(value = "/user/{name}", method = RequestMethod.GET)
+    public ModelAndView getUser(@PathVariable String name, Authentication authentication) {
         UserDetails currentUser = (UserDetails) authentication.getPrincipal();
         String userName = userService.getUserByEmail(currentUser.getUsername()).get().getName();
 
-        if(userName.equals(name)){
+        if (userName.equals(name)) {
             return new ModelAndView("user_owner", "user", userService.getUserByName(name)
                     .orElseThrow(() -> new NoSuchElementException(String.format("User = %s  not found", name))));
-        }else return new ModelAndView("user_guest", "user", userService.getUserByName(name)
+        } else return new ModelAndView("user_guest", "user", userService.getUserByName(name)
                 .orElseThrow(() -> new NoSuchElementException(String.format("User=%s not found", name))));
     }
 
@@ -64,8 +65,15 @@ public class UserController {
             bindingResult.reject("email.exists", "Email already exists");
             return "user_create";
         }
-        return "redirect:/";
+        return "redirect:/successful_created_page";
     }
+
+
+    @RequestMapping(value = "/successful_created_page",method = RequestMethod.GET)
+    public String getSuccessfulCreatePage(){
+        return  "successful_created_page";
+    }
+
 
     @RequestMapping(value = "/users", method = RequestMethod.GET)
     public ModelAndView getUsers() {
@@ -73,6 +81,22 @@ public class UserController {
     }
 
 
+
+    @RequestMapping(value = "/createPerformer", method = RequestMethod.GET)
+    public
+    @ResponseBody
+    String createPerformer(Authentication authentication) {
+        //TODO make form about performer
+
+        CurrentUser currentUser = (CurrentUser) authentication.getPrincipal();
+        String s ;
+        if(currentUser.getUser().getUserDetails().getPerformer() == null){
+            s = "null";
+        }else  s = "notnull";
+
+
+        return s;
+    }
 
 
 

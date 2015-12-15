@@ -62,7 +62,7 @@ public class UserServiceImpl implements UserService {
 
         UserDetails userDetails = new UserDetails();
         userDetails.setUser(user);
-        userDetails.setEvent(new HashSet<>());
+        userDetails.setEvents(new HashSet<>());
         userDetailsRepository.save(userDetails);
 
         user.setUserDetails(userDetails);

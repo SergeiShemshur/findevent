@@ -16,6 +16,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.constraints.Null;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -29,9 +30,9 @@ public class EventController {
     EventService eventService;
 
 
-    @RequestMapping(value = "event", method = RequestMethod.GET)
+    @RequestMapping(value = "/event", method = RequestMethod.GET)
     public String getCreateEventPage() {
-        return "event_page";
+        return "event_create_page";
     }
 
 
@@ -48,7 +49,8 @@ public class EventController {
         return "ok";
     }
 
-    @RequestMapping(value = "eventid/{id}", method = RequestMethod.GET)
+
+    @RequestMapping(value = "user/events", method = RequestMethod.GET)
     public
     @ResponseBody
     String getEvetnCurrentUser(@PathVariable long id, Authentication authentication) {
@@ -61,6 +63,14 @@ public class EventController {
         }
         return builder.toString();
     }
+
+    @RequestMapping(value = "user/events/{id}", method = RequestMethod.GET)
+    public @ResponseBody String getCurrentUserEvent(@PathVariable long id){
+      //  return   eventService.getEventsById(id);
+        //TODO
+  return null;
+    }
+
 
 
 }
